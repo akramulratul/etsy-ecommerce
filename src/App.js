@@ -1,17 +1,28 @@
-import Navbar from './components/navbar/Navbar';
+import NavBar from './components/navbar/NavBar';
+import { createContext, useState } from "react";
 
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Login from './components/login/Login';
 
-import './App.css';
-
+export const UserContext = createContext();
 
 function App() {
+  const [loggedInUser, setLoggedInUser] = useState({});
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar></Navbar>
-        
-      </header>
-    </div>
+    <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
+      <Router>
+        <div className="App">
+          <Switch>
+            <header className="App-header">
+              <NavBar></NavBar>
+              <Route path="/login">
+                <Login />
+              </Route>
+            </header>
+          </Switch>
+        </div>
+      </Router>
+    </UserContext.Provider>
   );
 }
 
