@@ -1,0 +1,32 @@
+
+.heading-area{
+    background-image: url("https://i.ibb.co/JqVnXxH/pexels-lisa-fotios-1182338.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    height: 400px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+.info{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+}
+.Flower{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.title{
+    font-size: 50px;
+}
+.shop-button{
+    Margin-top: 20px;
+    background-color: rgb(116, 6, 83);
+    color: whitesmoke;
+}

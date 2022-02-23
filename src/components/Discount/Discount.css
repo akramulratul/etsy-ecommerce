@@ -1,0 +1,51 @@
+.container{
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    
+}
+.first{
+    background-image: url("https://i.ibb.co/ssdXBh0/photo-1543157145-f78c636d023d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+    /* margin-right: 10px; */
+    margin-left: 40px;
+    /* text-align: center; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.second{
+    background-image: url("https://i.ibb.co/wNmzGCk/photo-1496661415325-ef852f9e8e7c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+    /* margin-right: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.third{
+    background-image: url("https://i.ibb.co/wNmzGCk/photo-1496661415325-ef852f9e8e7c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    font-size: 30px;
+    font-weight: 700;
+
+}
