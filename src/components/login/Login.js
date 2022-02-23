@@ -4,7 +4,7 @@ import './Login.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { Link, useHistory, useLocation } from 'react-router-dom';
-import Navbars from '../NavBar/Navbar';
+import NavBar from '../navbar/NavBar';
 import firebase from 'firebase/app'
 import 'firebase/auth'
 import firebaseConfig from './firebase.config';
@@ -104,7 +104,6 @@ const Login = () => {
     return (
         <div>
             <div>
-                <Navbars />
                 <div className="line"></div>
                 <div className="login-body mt-5 d-flex justify-content-center align-items-center">
                     <div className="login-card text-left" style={{ width: '23rem' }}>

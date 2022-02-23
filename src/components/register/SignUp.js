@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Link, useHistory, useLocation } from "react-router-dom";
-import firebaseConfig from "../Login/firebase.config";
+import firebaseConfig from "../login/firebase.config";
 import firebase from "firebase/app";
 import "firebase/auth";
-import Navbars from "../NavBar/Navbar";
-import "./SignUp.css";
+// import Navbars from "../NavBar/Navbar";
+// import "./SignUp.css";
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
@@ -89,7 +89,6 @@ const SignUp = () => {
   return (
     <div>
       <div>
-        <Navbars />
         <div className="line"></div>
         <div className="signup-body mt-4 text-left d-flex justify-content-center align-items-center">
           <div className="signup-card" style={{ width: "23rem" }}>
