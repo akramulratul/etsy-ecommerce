@@ -16,7 +16,20 @@ const Footer = () => {
             </div>
 
 
-            <div className="others-info">
+            <div className="About-us">
+
+                <div className="About-ourShop">
+
+                    <h4>ABOUT OUR SHOP</h4>
+                    
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis beatae dolor.</p>
+
+                    <p className='location'>Location</p>
+                    <p className='Phone'>Contact Number</p>
+                    <p className='Email'> example@example.com</p>
+                    
+                    
+                </div>
                 
             </div>
         </div>
