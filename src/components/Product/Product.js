@@ -7,10 +7,10 @@ const Product = (props) => {
     return (
 
 
-        <div class="card" >
-        {/* <img src={img} class="card-img-top" alt="..."> */}
+        <div className="card" >
+        {/* <img src={img} className="card-img-top" alt="..."> */}
         <div class="card-body">
-            <h5 class="card-title">{name}</h5>
+            <h5 className="card-title">{name}</h5>
             <h5>Price: $ {price}</h5>
             
         </div>

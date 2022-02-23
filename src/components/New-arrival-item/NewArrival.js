@@ -5,7 +5,8 @@ import Product from '../Product/Product';
 
 const NewArrival = () => {
     // const Flower = data;
-    const [flowers,setFlowers] = useState(data);
+    const [flowers,setFlowers] = useState([data]);
+    
     return (
         <div className='new-arrival-area'>
             <h2>New Arrival items</h2>

@@ -1,0 +1,56 @@
+.footer-container{
+    margin-top: 40px;
+    height: 400px;
+    width: 100%;
+    background-image: url("https://i.ibb.co/wSM0LyL/714041.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    
+}
+
+.info{
+   color: #e9e1e2;
+    
+}
+
+ .input {
+     
+    height: 38px;
+    width: 500px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-right: none;
+ }
+
+ .button{
+    height: 38px!important;
+    border-left: none;
+    width: 120px;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+ }
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3,h6{
+    padding-bottom: 5px;
+}
+
+.About-us{
+    background-color: rgb(47, 45, 45);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 5%;
+}
+

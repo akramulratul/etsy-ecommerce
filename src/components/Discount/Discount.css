@@ -21,7 +21,7 @@
 
 }
 .second{
-    background-image: url("https://i.ibb.co/wNmzGCk/photo-1496661415325-ef852f9e8e7c.jpg");
+    background-image: url("https://i.ibb.co/2gxNLRQ/pink-flower-frame-background-with-watercolor-65186-2566.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
@@ -49,3 +49,14 @@ h3{
     font-weight: 700;
 
 }
+
+@media screen and (max-width: 500px) {
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
