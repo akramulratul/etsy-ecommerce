@@ -1,0 +1,38 @@
+.Profile-container{
+    margin: 0;
+}
+
+.form-container{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.from-heading{
+
+}
+
+.view-btn{
+    /* background-color: whitesmoke; */
+    display: flex;
+    justify-content: end;
+    
+}
+
+.view-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.form-info{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 50px;
+}
+
+.profile{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
