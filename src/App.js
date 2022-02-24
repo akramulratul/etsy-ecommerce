@@ -15,6 +15,7 @@ import Login from "./components/login/Login";
 import SignUp from "./components/register/SignUp";
 import Home from "./Pages/HomePage/Home/Home";
 import Favourite from "./Pages/Favourite/Favourite";
+import PublicProfile from "./Pages/PublicProfile/PublicProfile";
 
 export const UserContext = createContext();
 
@@ -50,6 +51,9 @@ function App() {
               </Route>
               <Route path="/profile">
                 <Favourite />
+              </Route>
+              <Route path="/edit-profile">
+                <PublicProfile />
               </Route>
             </header>
           </Switch>
