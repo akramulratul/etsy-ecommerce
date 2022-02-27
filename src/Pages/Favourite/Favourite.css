@@ -1,99 +1,24 @@
-.favPage-container{
-    margin: 0;
-    display: flex;
-    height: 150px;
-    align-items: center;
-    background-color: azure;
-    padding-left: 40px;
-    
-}
-
-
-.profile-container{
-    margin-right: 20px;
-
-}
-.profile-picture{
-    height: 100px;
-    width: 100px;
-    top: 50%;
-    left: 50%;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 1px solid grey;
-    /* margin-right: 20px; */
-    display:flex;
-    
-}
-
-.img{
-    height: 100%;
-    width: 100%;
-}
 #file{
     display: none;
 }
-.up-btn{
-   
-}
 
-.upload-btn{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    text-align: end;
-    background: black;
-    color: wheat;
-    line-height: 30px;
-    font-family: sans-serif;
-    font-size: 15px;
-    cursor: pointer;
-    margin-left: -30px;
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
 .change-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
-
 }
-.profile-name{
-    margin-left: 40px;
-}
-
-
- .name{
-    display: flex;
-
-}
-
-.nayeem{
-font-weight: 200;
-padding-right: 10px;
-}
-
-.EditProfile-button{
- height: 30PX;
- width: 30px;
- border-radius: 50%;
- background-color: rgba(68, 67, 67, 0.075);
-
-}
-
-.follow{
-
-}
-
 
 
 .cart-body{
-    height: 500px;
+    height: 600px;
 }
+
+.upload-btn{
+    margin-left: -30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    align-items: center;
+}
+

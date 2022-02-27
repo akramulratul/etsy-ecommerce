@@ -6,13 +6,13 @@ import "./Heading.css";
 
 const Heading = () => {
     return (
-        <div className='heading-area' >
+        <div className='heading-area container d-flex justify-content-center' >
             
-            <div className="info">
+            <div className="info col-8  justify-content-center">
                 <h4 className='Flower'>Flower & Gift</h4>
                 <h1 className='title'>Perfect Bounch For Every Occasion</h1>
 
-                <button className='shop-button btn'> Shop Now</button>
+                <button className='shop-button btn mt-4'> Shop Now</button>
             </div>
             
             

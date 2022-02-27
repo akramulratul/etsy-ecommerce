@@ -3,7 +3,7 @@
     background-image: url("https://i.ibb.co/JqVnXxH/pexels-lisa-fotios-1182338.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     height: 400px;
     width: 100%;
     color: white;
@@ -26,7 +26,12 @@
     font-size: 50px;
 }
 .shop-button{
-    Margin-top: 20px;
+    /* Margin-top: 20px; */
     background-color: rgb(116, 6, 83);
     color: whitesmoke;
 }
+
+.shop-button:hover{
+    color: rgb(42, 224, 42);
+}
+

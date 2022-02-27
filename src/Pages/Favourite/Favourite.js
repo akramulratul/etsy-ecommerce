@@ -9,36 +9,46 @@ import Footer from "../../components/Footer/Footer";
 
 const Favourite = () => {
   return (
-    <div className="Container">
-      <div className="favPage-container">
-        <div className="profile-picture">
-          <img src={image} id="photo" className="img" alt="" />
-        </div>
-        <div className="up-btn">
+    <div className="container mt-4 mb-4">
+
+      <div className="row">
+        <div className="col-2 ml-4 d-flex justify-content-center">
+          <img src={image} id="photo" className="img-thumbnail " alt="" />
           <input type="file" id="file" />
-          <label for="file" id="uploadBtn" className="upload-btn">
-            {" "}
-            <FontAwesomeIcon icon={faUser} />{" "}
+          <label for="file" id="uploadBtn" className="upload-btn mt-4 d-flex justify-content-center">
+              <FontAwesomeIcon icon={faUser} />
           </label>
         </div>
 
-        <div className="profile-name">
-          <div className="name">
-            <h3 className="nayeem">Nayeem islam </h3>
-            <Link to="/edit-profile">
-              <button className="change-button">
+        <div className="col-4 ">
+          <div className="row ">
+            <div className="col d-flex">
+              <h3 className="">Nayeem islam </h3>
+            
+              <button className="change-button ml-2 ">
                 <FontAwesomeIcon icon={faPen} />
               </button>
-            </Link>
+            </div>
+            
           </div>
 
-          <div className="follow">
-            <span> 0 Following </span>
+          <div className="row">
+            <div className="col d-flex">
+            <span className="mr-2"> 0 Following </span>
             <span>0 Followers</span>
+            </div>
+            
           </div>
+              
         </div>
+
+        
       </div>
-      <div className="cart-body"></div>
+
+      <div className="cart-body">
+
+
+      </div>
       <Footer></Footer>
     </div>
   );
