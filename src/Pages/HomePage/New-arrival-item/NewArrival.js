@@ -1,20 +1,22 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./NewArrival.css";
 import data from "../../../NewArrivalData/New-arrival-items.json";
 import Product from "../Product/Product";
 
 const NewArrival = () => {
-  // const Flower = data;
-  const [flowers, setFlowers] = useState([data]);
+  const Flower = data.slice(0,8);
+  const [products, setProducts] = useState(Flower);
 
   return (
-    <div className="new-arrival-area">
+    <div className="container mt-4 mb-4 text-center">
       <h2>New Arrival items</h2>
-      <div className="product-container">
-        {flowers.map((fl) => (
-          <Product product={fl}></Product>
-        ))}
+
+      <div className="row d-flex justify-content-center">
+        {
+          products.map(Pd => <Product product ={Pd} ></Product> )
+        }
       </div>
+
     </div>
   );
 };

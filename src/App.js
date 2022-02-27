@@ -16,6 +16,7 @@ import SignUp from "./components/register/SignUp";
 import Home from "./Pages/HomePage/Home/Home";
 import Favourite from "./Pages/Favourite/Favourite";
 import PublicProfile from "./Pages/PublicProfile/PublicProfile";
+import ProductCart from "./Pages/ProductCart/ProductCart";
 
 export const UserContext = createContext();
 
@@ -54,6 +55,9 @@ function App() {
               </Route>
               <Route path="/edit-profile">
                 <PublicProfile />
+              </Route>
+              <Route path="/Cart-info">
+                <ProductCart></ProductCart>
               </Route>
             </header>
           </Switch>

@@ -1,0 +1,19 @@
+
+.fav-btn{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.buy-btn{
+border-radius: 25px;
+}
+
+.basket-btn{
+    border-radius: 25px;
+
+}
+
+.cart{
+    margin-bottom: 100px;
+}
